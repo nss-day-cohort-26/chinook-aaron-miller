@@ -1,5 +1,11 @@
-# Learning SQL with Chinook
+# chinook-aaron-miller
+Chinook SQLite files
 
+[View ERD](https://www.draw.io/#G1wt9Bn58jwHcW0p31FJW0EsJGZ6EjFdfx)
+
+-------------------------------------------------------------------------------------
+
+# Learning SQL with Chinook
 
 ## Downloading the Database Files
 
@@ -66,9 +72,3 @@ For each of the following exercises, provide the appropriate query. Yes, even th
 1. `top_5_tracks.sql`: Provide a query that shows the top 5 most purchased songs.
 1. `top_3_artists.sql`: Provide a query that shows the top 3 best selling artists.
 1. `top_media_type.sql`: Provide a query that shows the most purchased Media Type.
-
--------------------------------------------------------------------------------------
-# chinook-aaron-miller
-Chinook SQLite files
-
-[View ERD](https://www.draw.io/#G1wt9Bn58jwHcW0p31FJW0EsJGZ6EjFdfx)
