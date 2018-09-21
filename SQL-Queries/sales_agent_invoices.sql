@@ -1,5 +1,6 @@
 -- Provide a query that shows the invoices associated with each sales agent. The resultant table should include the Sales Agent's full name
-SELECT Employee.FirstName, Employee.LastName,
+SELECT Employee.FirstName || " " || Employee.LastName 
+AS FullName,
 * 
 FROM Invoice
 JOIN Customer 
