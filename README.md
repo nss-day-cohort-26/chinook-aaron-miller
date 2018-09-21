@@ -4,7 +4,7 @@ Chinook SQLite files
 
 [View ERD](https://www.draw.io/#G1wt9Bn58jwHcW0p31FJW0EsJGZ6EjFdfx)
 
-Open SQL-Queries Folder to view solutions to corresponding file names of the exercises listed below.
+Open SQL-Queries Folder to view solutions with corresponding file names of the exercises listed below.
 
 ---
 
