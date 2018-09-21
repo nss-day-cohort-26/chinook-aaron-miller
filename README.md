@@ -1,9 +1,12 @@
 # chinook-aaron-miller
+
 Chinook SQLite files
 
 [View ERD](https://www.draw.io/#G1wt9Bn58jwHcW0p31FJW0EsJGZ6EjFdfx)
 
--------------------------------------------------------------------------------------
+Open SQL-Queries Folder to view solutions to corresponding file names of the exercises listed below.
+
+---
 
 # Learning SQL with Chinook
 
@@ -14,21 +17,22 @@ Click the big download button from the [Chinook Database](http://chinookdatabase
 ## Moving the SQLite Database to Your Workspace
 
 1. In your CLI, get to the directory where you extracted the archive. It should be something like the following.
-    ```
-    cd ~/Downloads/ChinookDatabase1.4_CompleteVersion
-    ```
+
+   ```
+   cd ~/Downloads/ChinookDatabase1.4_CompleteVersion
+   ```
 
 1. Create a directory for your work.
 
-    ```
-    mkdir -p ~/workspace/chinook
-    ```
+   ```
+   mkdir -p ~/workspace/chinook
+   ```
 
-2. Move the `Chinook_Sqlite.sqlite` file to that directory
+1. Move the `Chinook_Sqlite.sqlite` file to that directory
 
-    ```
-    cp Chinook_Sqlite.sqlite ~/workspace/chinook
-    ```
+   ```
+   cp Chinook_Sqlite.sqlite ~/workspace/chinook
+   ```
 
 That file **is** the database. It contains all of the tables and data. You can now open up that file in the SQLite Browser application to see it.
 
@@ -49,7 +53,7 @@ For each of the following exercises, provide the appropriate query. Yes, even th
 1. `unique_invoice_countries.sql`: Provide a query showing a unique/distinct list of billing countries from the Invoice table.
 1. `sales_agent_invoices.sql`: Provide a query that shows the invoices associated with each sales agent. The resultant table should include the Sales Agent's full name.
 1. `invoice_totals.sql`: Provide a query that shows the Invoice Total, Customer name, Country and Sale Agent name for all invoices and customers.
-1. `total_invoices_{year}.sql`: How many Invoices were there in 2009 and 2011? 
+1. `total_invoices_{year}.sql`: How many Invoices were there in 2009 and 2011?
 1. `total_sales_{year}.sql`: What are the respective total sales for each of those years?
 1. `invoice_37_line_item_count.sql`: Looking at the InvoiceLine table, provide a query that COUNTs the number of line items for Invoice ID 37.
 1. `line_items_per_invoice.sql`: Looking at the InvoiceLine table, provide a query that COUNTs the number of line items for each Invoice. HINT: [GROUP BY](http://www.sqlite.org/lang_select.html#resultset)
@@ -62,7 +66,7 @@ For each of the following exercises, provide the appropriate query. Yes, even th
 1. `sales_agent_total_sales.sql`: Provide a query that shows total sales made by each sales agent.
 1. `top_2009_agent.sql`: Which sales agent made the most in sales in 2009?
 
-    > **Hint:** Use the [MAX](https://www.sqlite.org/lang_aggfunc.html#maxggunc) function on a [subquery](http://beginner-sql-tutorial.com/sql-subquery.htm).
+   > **Hint:** Use the [MAX](https://www.sqlite.org/lang_aggfunc.html#maxggunc) function on a [subquery](http://beginner-sql-tutorial.com/sql-subquery.htm).
 
 1. `top_agent.sql`: Which sales agent made the most in sales over all?
 1. `sales_agent_customer_count.sql`: Provide a query that shows the count of customers assigned to each sales agent.
